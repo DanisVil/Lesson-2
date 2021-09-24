@@ -51,7 +51,7 @@ namespace Class_Work
             string str = Console.ReadLine();
             Console.WriteLine("Введите подстроку");
             string side_str = Console.ReadLine();
-            int contain_count = 0;
+            ushort contain_count = 0;
             for (int i = 0; i <= str.Length - side_str.Length; i++)
             {
                 if (str.Substring(i, side_str.Length) == side_str)
